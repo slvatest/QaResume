@@ -1,3 +1,5 @@
+
+Справочник по командам 
 echo "# Test" >> README.md
 git init
 git add README.md
@@ -5,3 +7,12 @@ git commit -m "glass, tea, water"
 git branch -M main
 git remote add origin https://github.com/логин/проект.git
 git push -u --force origin mian
+
+
+Изменения в файле и обновление файла 
+
+git fetch
+
+git diff main origin/main
+
+git pull
